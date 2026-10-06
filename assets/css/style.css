@@ -32,6 +32,12 @@
 .sidebar {
     display: inline-block;
     margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.sidebar-title {
+    color: #FFD700;
 }
 
 .h2-title {
