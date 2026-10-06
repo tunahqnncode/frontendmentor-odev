@@ -1,74 +1,121 @@
-.container {
-    margin-left: 248px;
+body {
+    margin: 0;
+    background-color: hsl(36, 100%, 99%);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: hsl(233, 8%, 45%);
 }
 
-.h1-title {
-    display: inline-block;
-    margin-right: 566px;
+.page {
+    width: 1022px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+/* HEADER (float kullandığımız için yüksekliği elle veriyoruz) */
+header {
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: hsl(240, 100%, 5%);
 }
 
 .links {
-    display: inline-block;
+    float: right;
+    line-height: 60px;
 }
 
-.links a{
-    margin-right: 30px;
-}
-
-.container a {
+.links a {
+    margin-left: 30px;
     text-decoration: none;
-    color: grey;
+    color: hsl(233, 8%, 45%);
 }
 
-.content{
-    margin-left: 248px;
+/* ALT BÖLÜM: sol içerik + sidebar */
+main {
+    height: 470px;
+    margin-top: 50px;
 }
 
 .main-feed {
-    display: inline-block;
-    margin-right: 30px;
+    float: left;
+    width: 672px;
+    height: 470px;
 }
 
+.hero {
+    display: block;
+    width: 672px;
+    height: 276px;
+}
+
+.headline {
+    float: left;
+    width: 340px;
+    margin: 24px 0 0 0;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 0.95;
+    color: hsl(240, 100%, 5%);
+}
+
+.intro {
+    float: right;
+    width: 310px;
+    margin-top: 24px;
+}
+
+.intro p {
+    margin: 0 0 30px 0;
+    line-height: 1.6;
+}
+
+.intro button {
+    display: block;
+    width: 170px;
+    height: 44px;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+/* SIDEBAR: 278 + 22 + 22 = 322px genişlik, 410 + 30 + 30 = 470px yükseklik */
 .sidebar {
-    display: inline-block;
-    margin: 0;
-    background-color: black;
-    color: white;
+    float: right;
+    width: 278px;
+    height: 410px;
+    padding: 30px 22px;
+    background-color: hsl(240, 100%, 5%);
 }
 
 .sidebar-title {
-    color: #FFD700;
-}
-
-.h2-title {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 45px;
+    margin: 0 0 20px 0;
+    font-size: 40px;
     font-weight: 800;
-    line-height: 0.9;
-    width: 400px;
-    margin: 30px 0 0 0;
+    color: hsl(35, 77%, 62%);
 }
 
-.h2-title > h2 {
+.sidebar h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar p {
     margin: 0;
+    line-height: 1.5;
+    color: hsl(36, 20%, 85%);
 }
 
-.paragraph {
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    margin: 30px 0 0 0;
-}
-
-.paragraph > p {
-    line-height: 1;
-    margin: 0;
-}
-
-.paragraph > button {
-    margin: 30px 0 0 0;
-    width: 170px;
-    height: 40px;
-    background-color: red;
+.sidebar hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid hsl(233, 8%, 35%);
 }
