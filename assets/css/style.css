@@ -11,6 +11,10 @@
     display: inline-block;
 }
 
+.links a{
+    margin-right: 30px;
+}
+
 .container a {
     text-decoration: none;
     color: grey;
