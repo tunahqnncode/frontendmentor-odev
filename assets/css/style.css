@@ -22,7 +22,6 @@
 
 .content{
     margin-left: 248px;
-    margin-right: 30px;
 }
 
 .main-feed {
@@ -30,3 +29,6 @@
     margin-right: 30px;
 }
 
+.sidebar {
+    display: inline-block;
+}
