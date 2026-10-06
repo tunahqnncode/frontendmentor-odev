@@ -122,7 +122,7 @@ main {
 
 .part-1 {
     display: inline-block;
-    margin: 30px 0;
+    margin: 30px 0 0 7px;
 }
 
 .part-1 div {
@@ -139,7 +139,7 @@ main {
 
 .part-2 {
     display: inline-block;
-    margin: 30px 0;
+    margin: 30px 0 0 7px;
 }
 
 .part-2 div {
@@ -151,5 +151,22 @@ main {
 }
 
 .part-2 h2 {
+    color: chocolate;
+}
+
+.part-3 {
+    display: inline-block;
+    margin: 30px 0 0 7px;
+}
+
+.part-3 div {
+    float: right;
+    margin-left: 30px;
+    line-height: 1.0;
+    font-size: 12px;
+    width: 200px;
+}
+
+.part-3 h2 {
     color: chocolate;
 }
