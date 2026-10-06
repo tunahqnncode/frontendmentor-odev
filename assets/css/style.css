@@ -136,3 +136,20 @@ main {
 .part-1 h2 {
     color: chocolate;
 }
+
+.part-2 {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.part-2 div {
+    float: right;
+    margin-left: 30px;
+    line-height: 1.0;
+    font-size: 12px;
+    width: 200px;
+}
+
+.part-2 h2 {
+    color: chocolate;
+}
